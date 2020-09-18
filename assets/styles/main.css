@@ -1,4 +1,40 @@
-* {
-  background-color: lavenderblush;
+/* All of the following code was entered directly into this file. The SCSS compiler was turned off due to problems with live server. */
+body {
+	margin: 0;
+	background-color: rgb(53, 138, 93);
 }
+
+header {
+	display: block;
+	width: auto;
+}
+
+main {
+	padding: 20px;
+	padding: 0px, 25px;
+}
+
+img {
+	width: 100%;
+}
+
+.main-container {
+	display: flex;
+}
+
+.para-one {
+	flex: 3;
+}
+
+.sidebar {
+	flex: 1;
+	background-color: rgb(233, 215, 192);
+	padding: 15px;
+	margin: 25px;
+}
+
+.para-two {
+	flex: 1;
+}
+
 /*# sourceMappingURL=main.css.map */
