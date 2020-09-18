@@ -38,6 +38,20 @@ img {
 	margin: 25px;
 }
 
+h1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 28px;
+}
+
+main p {
+	font-size: 18px;
+}
+
 ul {
 	padding-left: 0;
 }
@@ -52,6 +66,25 @@ button {
 	background-color: chocolate;
 	font-weight: bold;
 	font-size: 16px;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(35, 40, 40);
+	font-size: 20px;
+	padding: 5px;
+}
+
+footer p {
+	margin: 16px, 0px;
+}
+
+.eta {
+	color: white;
+}
+
+.unknown {
+	color: red;
 }
 
 /*# sourceMappingURL=main.css.map */
