@@ -17,8 +17,8 @@ console.log('Number of li links: ' + myDemoTags.length);
 function remember() {
 	var linksInList = myList.getElementsByTagName('li');
 	document.querySelector('#redundant').innerHTML = myDemoTags.innerHTML =
-		'Remember, keep these ' + linksInList.length + ' things in mind!';
-	document.querySelector('#redundant').style.cssText = 'color: red; font-weight: bold; font-size: 22px;';
+		"You've successfully pledged to keep these " + linksInList.length + ' points in your mind! Good Job!';
+	document.querySelector('#redundant').style.cssText = 'color: red; font-weight: bold; font-size: 20px;';
 }
 
 // Centers all level 1 headings.
