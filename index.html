@@ -6,12 +6,13 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="description" content="The DOM" />
 		<title>Rubric 3 - The DOM</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 		<link rel="stylesheet" type="text/css" href="assets/styles/main.css" />
 	</head>
 
 	<body>
 		<header>
-			<img src="assets/images/banner-1559405_1920.jpg" height="300px" alt="Clocks in a row" />
+			<img src="assets/images/banner-1559405_1920.jpg" height="310px" alt="Clocks in a row" />
 		</header>
 		<main>
 			<h1>Are We There Yet?</h1>
@@ -28,22 +29,37 @@
 						quia ea nesciunt laboriosam hic temporibus quasi, aliquam voluptatum earum commodi autem nostrum
 						ab nisi obcaecati iste?
 					</p>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, sed eveniet quisquam voluptas
+						quia ea nesciunt laboriosam hic temporibus quasi, aliquam voluptatum earum commodi autem nostrum
+						ab nisi obcaecati iste?
+					</p>
 				</div>
 				<div class="sidebar" id="toDo">
 					<aside>
 						<p>Please keep the following in mind&colon;</p>
 						<ul>
-							<li>There's so much to do&excl;</li>
-							<li>Stay on top of things.</li>
-							<li>So little time to complete tasks.</li>
-							<li>It can be done.</li>
+							<li>&hyphen; There's so much to do&excl;</li>
+							<li>&hyphen; Stay on top of things.</li>
+							<li>&hyphen; So little time to complete tasks.</li>
+							<li>&hyphen; It can be done.</li>
 						</ul>
-						<button onclick="remember()">Click Here for Summary</button>
+						<button onclick="remember()">Click &amp; Pledge</button>
 						<p id="redundant"></p>
 					</aside>
 				</div>
 			</div>
+			<!-- <p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, sed eveniet quisquam voluptas quia ea
+				nesciunt laboriosam hic temporibus quasi, aliquam voluptatum earum commodi autem nostrum ab nisi
+				obcaecati iste?
+			</p> -->
 		</main>
+		<footer class="theEnd">
+			<p class="eta">Click the button for your ETA:</p>
+			<button onclick="animationBtn">Calculate</button>
+			<!-- <p class="animate__animated animate__flash animate__infinite infinite unknown">Unknown</p> -->
+		</footer>
 
 		<script src="assets/scripts/main.js"></script>
 	</body>
