@@ -2,6 +2,7 @@
 body {
 	margin: 0;
 	background-color: rgb(53, 138, 93);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -26,6 +27,10 @@ img {
 	flex: 3;
 }
 
+.para-two {
+	flex: 1;
+}
+
 .sidebar {
 	flex: 1;
 	background-color: rgb(233, 215, 192);
@@ -33,8 +38,20 @@ img {
 	margin: 25px;
 }
 
-.para-two {
-	flex: 1;
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+	line-height: 22px;
+}
+
+button {
+	border-radius: 15px;
+	background-color: chocolate;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */
