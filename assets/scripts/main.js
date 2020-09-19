@@ -49,3 +49,9 @@ function calculatedETA(text) {
 	p1 = document.getElementById('p-time');
 	p1.appendChild(newText);
 }
+
+function yesAlert() {
+	var alertBox = document.querySelector('.alert-box');
+	var textNode = alertBox.firstChild;
+	alert(textNode.data);
+}
