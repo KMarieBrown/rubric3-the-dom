@@ -33,7 +33,7 @@
 				<div class="sidebar" id="toDo">
 					<aside>
 						<p>Please keep the following in mind&colon;</p>
-						<ul>
+						<ul id="list">
 							<li>&hyphen; There's so much to do&excl;</li>
 							<li>&hyphen; Stay on top of things.</li>
 							<li>&hyphen; So little time to complete tasks.</li>
@@ -46,9 +46,9 @@
 			</div>
 		</main>
 		<footer class="theEnd">
-			<p class="eta">Click the button for your ETA:</p>
-			<button onclick="animationBtn">Calculate</button>
-			<p class="animate__animated animate__flash animate__infinite infinite unknown">Unknown</p>
+			<p class="eta">Click the button below to calculate your ETA:</p>
+			<button onclick="calculatedETA('Unknown')">Calculate</button>
+			<p id="p-time" class="animate__animated animate__flash animate__infinite infinite unknown"></p>
 		</footer>
 
 		<script src="assets/scripts/main.js"></script>

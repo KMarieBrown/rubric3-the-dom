@@ -85,6 +85,8 @@ footer p {
 
 .unknown {
 	color: red;
+	font-weight: bold;
+	font-size: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */

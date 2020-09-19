@@ -13,6 +13,16 @@ myList.setAttribute('align', 'center');
 var myDemoTags = document.getElementsByTagName('li');
 console.log('Number of li links: ' + myDemoTags.length);
 
+// Add more items to the pledge list.
+function pledgeItems(name) {
+	let li = document.createElement('li');
+	li.textContent = name;
+	return li;
+}
+const list = document.querySelector('#list');
+list.appendChild(pledgeItems('- Hang in there.'));
+list.appendChild(pledgeItems('- Never give up.'));
+
 // Returns the nmber of items listed in the aside, in red font, when the button is clicked.
 function remember() {
 	var linksInList = myList.getElementsByTagName('li');
@@ -24,9 +34,6 @@ function remember() {
 // Centers all level 1 headings.
 document.querySelector('h1').style.textAlign = 'center';
 
-// Centers all level 2 headings.
-document.querySelector('h2').style.textAlign = 'center';
-
 // Creates a new paragraph node.
 let newPara = document.getElementById('addPara');
 let p = document.createElement('p');
@@ -35,3 +42,10 @@ p.textContent =
 	'I created this paragraph and inserted it using JavaScript. It seemed like a very daunting and somewhat intimidating task at first, but I did it! Blah, blah, blah and lorem. Lorem ipsum dolor, sit amet consectetur adipisicing elit.';
 // Inserts the new node and its contents into the DOM.
 newPara.insertBefore(p, newPara.firstElementChild);
+
+// Creates a new, animated text node after clicking button in footer.
+function calculatedETA(text) {
+	var newText = document.createTextNode(text);
+	p1 = document.getElementById('p-time');
+	p1.appendChild(newText);
+}
