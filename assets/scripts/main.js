@@ -25,4 +25,13 @@ function remember() {
 document.querySelector('h1').style.textAlign = 'center';
 
 // Centers all level 2 headings.
-// document.querySelector('h2').style.textAlign = 'center';
+document.querySelector('h2').style.textAlign = 'center';
+
+// Creates a new paragraph node.
+let newPara = document.getElementById('addPara');
+let p = document.createElement('p');
+// Adds content to the newly created node.
+p.textContent =
+	'I created this paragraph and inserted it using JavaScript. It seemed like a very daunting and somewhat intimidating task at first, but I did it! Blah, blah, blah and lorem. Lorem ipsum dolor, sit amet consectetur adipisicing elit.';
+// Inserts the new node and its contents into the DOM.
+newPara.insertBefore(p, newPara.firstElementChild);
