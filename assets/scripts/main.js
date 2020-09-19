@@ -50,8 +50,12 @@ function calculatedETA(text) {
 	p1.appendChild(newText);
 }
 
+// Creates a button with an alert box.
 function yesAlert() {
 	var alertBox = document.querySelector('.alert-box');
 	var textNode = alertBox.firstChild;
 	alert(textNode.data);
 }
+
+// Creates an alert as soon as the page loads.
+window.alert('How long should you try? Until. -Jim Rohn');
