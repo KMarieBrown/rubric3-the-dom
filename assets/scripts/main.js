@@ -23,7 +23,7 @@ const list = document.querySelector('#list');
 list.appendChild(pledgeItems('- Hang in there.'));
 list.appendChild(pledgeItems('- Never give up.'));
 
-// Returns the nmber of items listed in the aside, in red font, when the button is clicked.
+// Returns the number of items listed in the aside, in red font, when the button is clicked.
 function remember() {
 	var linksInList = myList.getElementsByTagName('li');
 	document.querySelector('#redundant').innerHTML = myDemoTags.innerHTML =
